@@ -6,14 +6,13 @@ body {
   min-height: 100vh;
 }
 
-#improve-btn:hover{
-  box-shadow: 0px 0px 20px #e91e63;
-  font-size: 105%;
-  transition: 0.15s ease all;
+#findoutmore-btn{
+  outline: none;
 }
 
-#main-logo:hover{
+#findoutmore-btn:hover{
   box-shadow: 0px 0px 20px #e91e63;
+  font-size: 105%;
   transition: 0.15s ease all;
 }
 
