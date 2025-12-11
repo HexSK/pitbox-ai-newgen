@@ -18,7 +18,7 @@ export default function HeroPage() {
                     <h5>Upload your setup, tell us what's wrong, and let Pitbox AI fix it for you.</h5>
 
                     <button
-                        id="improve-btn"
+                        id="findoutmore-btn"
                         className="my-4 fs-4 text-white"
                         onClick={() => {
                             const targetDiv = document.getElementById("how-it-works-section");

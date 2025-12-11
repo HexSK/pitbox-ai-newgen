@@ -16,7 +16,7 @@ export default function WhyUseIt(){
                 <div className="text-start mx-4 mt-4">
                   <div className="mb-3">
                     <h4>1. Upload your setup</h4>
-                    <p>Just upload your <code>.ini</code> setup file.</p>
+                    <p>Just upload your <code className="text-white">.ini</code> setup file.</p>
                   </div>
                   <div className="mb-3">
                     <h4>2. Describe your problem</h4>
