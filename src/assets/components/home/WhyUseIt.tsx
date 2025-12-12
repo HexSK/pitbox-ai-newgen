@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function WhyUseIt(): JSX.Element{
+export default function WhyUseIt(): React.ReactElement {
     return(
         <Container className="my-1" id="how-it-works-section">
         <Row className="justify-content-center">

@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../imgs/logo.png';
 
-export default function Navigator(): JSX.Element{
+export default function Navigator(): React.ReactElement {
     return(
         <Navbar bg="dark" style={{ position: "sticky", top: 0, zIndex: 1000, borderBottom: "2px rgba(233, 30, 99, 1)" }} data-bs-theme="dark" expand="md">
         <Container>

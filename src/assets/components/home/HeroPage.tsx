@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../imgs/logo.png';
 
-export default function HeroPage(): JSX.Element {
+export default function HeroPage(): React.ReactElement {
     return (
         <Container>
             <Row className="justify-content-center align-items-center min-vh-100">

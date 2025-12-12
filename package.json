@@ -9,6 +9,6 @@
     "build": "tsc",
     "dev": "vite",
     "start": "vite preview",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx"
+    "lint": "eslint . --ext .ts,.tsx"
   }
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Container, Nav } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Footer(): JSX.Element {
+export default function Footer(): React.ReactElement {
     return (
         <Container>
             <footer className="py-3 my-4">

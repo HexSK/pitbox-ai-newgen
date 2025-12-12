@@ -6,7 +6,7 @@ import Footer from './assets/components/Footer';
 import HeroPage from './assets/components/home/HeroPage';
 import WhyUseIt from './assets/components/home/WhyUseIt';
 
-export default function App(): JSX.Element {
+export default function App(): React.ReactElement {
   return (
     <>
       <Navigator />
