@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../imgs/logo.png';
+import logo from '../../imgs/logo.png';
 
 export default function Navigator(): React.ReactElement {
     return(
@@ -20,16 +20,16 @@ export default function Navigator(): React.ReactElement {
           <Navbar.Toggle aria-controls="main-nav" />
           <Navbar.Collapse id="main-nav" className="justify-content-end">
             <Nav>
-              <Nav.Link href="#" className="text-grey">
+              <Nav.Link href="/" className="text-grey">
                 Home
               </Nav.Link>
-              <Nav.Link href="#" className="text-grey">
+              <Nav.Link href="/about" className="text-grey">
                 About
               </Nav.Link>
-              <Nav.Link href="#" className="text-grey">
+              <Nav.Link href="/pitbox" className="text-grey">
                 Pitbox AI
               </Nav.Link>
-              <Nav.Link href="#" className="text-grey">
+              <Nav.Link href="/contact-us" className="text-grey">
                 Contact Us
               </Nav.Link>
             </Nav>

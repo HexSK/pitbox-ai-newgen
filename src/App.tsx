@@ -1,20 +1,28 @@
 import React from "react";
-import logo from "./assets/imgs/logo.png";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navigator from './assets/components/Navigator';
-import Footer from './assets/components/Footer';
-import HeroPage from './assets/components/home/HeroPage';
-import WhyUseIt from './assets/components/home/WhyUseIt';
+
+import Navigator from './assets/pages/components/Navigator';
+import Footer    from './assets/pages/components/Footer';
+import Home      from "./assets/pages/Home";
+import About     from "./assets/pages/About";
 
 export default function App(): React.ReactElement {
   return (
     <>
-      <Navigator />
-      <div className="app bg-dark text-white">
-        <HeroPage />
-        <WhyUseIt />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Navigator />
+        <div className="app bg-dark text-white">
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            {/* <Route path="/pitbox" element={<Pitbox/>}/> */}
+            {/* <Route path="/contact-us" element={<Contact/>}/> */}
+          </Routes>
+          <Footer />
+        </div>
+      </BrowserRouter>
     </>
   );
 }
